@@ -1,0 +1,106 @@
+#container1 {
+    min-height: 30px; /* Establece una altura mínima para el contenedor en píxeles */
+    background-color: rgba(81, 79, 79, 0.947);
+}
+
+
+#container2  {
+    min-height: 200px; /* Establece una altura mínima para el contenedor en píxeles */
+    background-color:#FFFFFF;
+    
+}
+
+#container2 h1 {
+    color: rgb(18, 3, 3); /* Cambia "red" al color deseado */
+    font-size: 50px; /* Cambia el tamaño de fuente deseado */
+    /* Otros estilos que desees aplicar al h1 */
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.navbar .btn.btn-warning {
+    margin-bottom: 20px; /* Añade un margen inferior al botón "Contacto" */
+}
+
+.navbar .nav-link.center-with-button {
+    display: flex;
+    align-items: center;
+    height: 100%; /* Asegura que los enlaces tengan la misma altura que el botón */
+}
+
+.custom-bg {
+    background-color:#060F40; /* Cambia "blue" al color de fondo deseado */
+   
+}
+
+.btn.btn-warning.btn-lg {
+    margin-right: 100px; /* Ajusta el valor del margen derecho según tu preferencia */
+    margin-bottom: 20px; /* Añade un margen inferior de 20px al botón "Contacto" */
+    width: 150px; /* Ajusta el ancho del botón según tus preferencias */
+}
+.navbar-brand{
+    margin-right: 50px;
+    margin-top: 0; /* Elimina el margen superior */
+    margin-bottom: 0px; /* Elimina el margen inferior del nav */
+
+}
+
+.card-img-top {
+    width: 100%; /* Ancho fijo al 100% */
+    height: 300px; /* Altura fija, ajusta según tus preferencias */
+    object-fit: cover; /* Escala la imagen para llenar el espacio sin distorsión */
+}
+
+.card {
+    margin-left: 50px; /* Margen a la izquierda de cada tarjeta */
+    margin-right: 50px; /* Margen a la derecha de cada tarjeta */
+}
+
+.img-fluid{
+    margin-top: 110px;
+
+}
+
+#container3 h1 {
+    color: rgb(18, 3, 3); /* Cambia "red" al color deseado */
+    font-size: 50px; /* Cambia el tamaño de fuente deseado */
+    /* Otros estilos que desees aplicar al h1 */
+    text-align: center;
+    margin-top: 100px;
+}
+
+#container4  {
+  
+    margin-top: 100px;
+}
+
+.col-5 {
+    border-left: 2px solid #e7740f; /* Cambia el grosor y el color del borde según tus preferencias */
+    padding-left: 20px; /* Añade un espacio a la izquierda del texto para separarlo del borde */
+}
+
+.custom-input {
+    border-color: orange; /* Cambia el color del borde a naranja */
+    border-width: 2px; /* Cambia el valor a tu preferencia para un borde más grueso */
+}
+
+/* Para dejar los textos en negrita */
+.form-label strong {
+    font-weight: bold;
+}
+
+.btn.btn-warning {
+    margin-top: 20px;; /* Establece el margen en 0 para eliminar el espacio alrededor de los botones */
+    float: right; /* Hace que el botón flote a la derecha */
+    width: 150px; /* Ajusta el ancho del botón según tus preferencias */
+
+}
+
+.col-5 p {
+    margin-bottom: 30px; /* Añade un margen inferior de 20px entre los párrafos */
+}
+
+.col-5 h2 {
+    margin-bottom: 50px; /* Añade un margen inferior de 20px entre los párrafos */
+}

@@ -1,0 +1,156 @@
+#container1 {
+    min-height: 30px; /* Establece una altura mínima para el contenedor en píxeles */
+    background-color: rgba(81, 79, 79, 0.947);
+}
+
+.custom-bg { /* fondo 2 sav*/
+    background-color:#0e1422; /* Cambia "blue" al color de fondo deseado  fondo 2 sav*/
+   
+}
+
+.navbar .nav-item { /*  elemtos del nav2*/
+    margin-left: auto; /* Mueve los elementos de menú al margen derecho - elemtos del nav2*/
+    margin-right: 50px;
+}
+
+.btn.btn-warning.btn-lg { /* bton contacto nav 2 */
+
+    margin-bottom: 0px; /* Añade un margen inferior al botón "Contacto" */
+    padding: 5px 5px; /* Ajusta los valores del relleno (padding) según tus preferencias */
+    width: 180px; /* largo del boton*/
+    
+    
+}
+
+.navbar .nav {  /* item nav 2 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2  {  /* titulo intermedio */
+    min-height: 200px; /* Establece una altura mínima para el contenedor en píxeles */
+    background-color:#FFFFFF;
+    
+}
+
+#container2 h1 { /* ajuste del margen color del titulo intermedio */
+    color: rgb(18, 3, 3); /* Cambia "red" al color deseado */
+    font-size: 50px; /* Cambia el tamaño de fuente deseado */
+    /* Otros estilos que desees aplicar al h1 */
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+
+.card-img-top {
+    width: 100%; /* Ancho fijo al 100% */
+    height: 300px; /* Altura fija, ajusta según tus preferencias */
+    object-fit: cover; /* Escala la imagen para llenar el espacio sin distorsión */
+}
+
+.card {
+    margin-left: 50px; /* Margen a la izquierda de cada tarjeta */
+    margin-right: 50px; /* Margen a la derecha de cada tarjeta */
+   
+}
+
+#container3 h1 { /* titulo intermedio 2*/
+    color: rgb(18, 3, 3); /* Cambia "red" al color deseado */
+    font-size: 50px; /* Cambia el tamaño de fuente deseado */
+    /* Otros estilos que desees aplicar al h1 */
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.separate-image {
+    margin-top: 110px;
+}
+
+#container4  {
+  
+    margin-top: 100px;
+}
+
+/* formulario 2*/
+.col-5 {
+    border-left: 2px solid hsl(28, 88%, 48%); /* Cambia el grosor y el color del borde según tus preferencias */
+    padding-left: 20px; /* Añade un espacio a la izquierda del texto para separarlo del borde */
+}
+
+.custom-input {
+    border-color: #ffa500; /* Cambia el color del borde a naranja */
+    border-width: 2px; /* Cambia el valor a tu preferencia para un borde más grueso */
+}
+
+/* Para dejar los textos en negrita */
+.form-label strong {
+    font-weight: bold;
+}
+
+.custom-button {
+    margin-top: 30px;; /* Establece el margen en 0 para eliminar el espacio alrededor de los botones */
+    float: right; /* Hace que el botón flote a la derecha */
+    width: 150px; /* Ajusta el ancho del botón según tus preferencias */
+
+}
+
+.col-5 p {
+    margin-bottom: 30px; /* Añade un margen inferior de 20px entre los párrafos */
+}
+
+.col-5 h2 {
+    margin-bottom: 50px; /* Añade un margen inferior de 20px entre los párrafos */
+}
+
+
+#container6 h1 { /* titulo intermedio 2*/
+    color: rgb(18, 3, 3); /* Cambia "red" al color deseado */
+    font-size: 50px; /* Cambia el tamaño de fuente deseado */
+    /* Otros estilos que desees aplicar al h1 */
+    text-align: center;
+    margin-top: 180px;
+}
+
+
+#container9 h4{
+  
+    margin-top: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 100px;
+}
+
+#container9 p {
+  
+    text-align: left;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+
+#container9{
+
+    margin-right: 50px;
+    background-color:#0e1422; /* Cambia "blue" al color de fondo deseado  fondo 2 sav*/
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.text-over-image {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white; /* Estilo del texto */
+    font-size: 50px; /* Tamaño del texto */
+}
+
+#producto-contenedor {
+    margin-top: 200px; /* Ajusta el valor según tus necesidades */
+}
