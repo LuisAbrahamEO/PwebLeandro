@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/estilos/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="icon" href="/img/logofooter.png">
+    <title>Solar&Sustentable</title>
+</head>
+
+<body>
+
+<!-- Inicio Nav -->
+    <nav class="navbar navbar-expand-lg container-fluid custom-container">
+        <div class="container">
+            <a href="#"><img src="/img/logonav.png" alt="" width="200"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars lead text-light"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <div class=".nav-container ">
+                        <li class="nav-item d-flex">
+                            <a class="nav-link align-self-center" aria-current="page" href="#Appmovil">Inicio</a>
+              </li>
+            </div>
+              <li class=" nav-item ms-6 mb-6 mb-lg-0">
+                <a class=" nav-link align-self-center " href="#SeviciosTI">Kit Solares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link align-self-center " href="#Contactanos">Empresas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link align-self-center " href="#Contactanos">Hogar</a>
+                        </li>
+                        <li class="nav-item">
+                <a class="btn btn-secundary text-light " onclick="mostrarContacto()">Contacto</a>
+              </li>
+              </ul>
+          </div>
+        </div>
+  </nav>
+<!-- Termino Nav -->
+
+         <!-- carousel  -->
+
+         <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/img/carrusel1.jpeg" class="d-block w-100 img-fluid" style="height: 1280px;" alt=" ">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/carrusel2.jpeg" class="d-block w-100 img-fluid" style="height: 1280px;" alt=" ">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/carrusel3.jpeg" class="d-block w-100 img-fluid" style="height: 1280px;" alt=" ">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+              
+        </div>  
+
+        <!-- TITUlo intermedio -->
+
+        <div class="container-fluid custom-container " id="container2">
+            <H1>Servicios</H1>        
+         </div>
+
+         <!-- Presentacion de las card -->
+
+         <div class="row row-cols-1 row-cols-md-3 g-4" id="container5">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/img/card1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style=" color: black;" >Energía Solar Hogar</h5>
+                        <p class="card-text">En un mundo que valora la sostenibilidad y la eficiencia energética, es hora de que tu hogar se una a la revolución solar. La energía solar no solo es amigable con el medio ambiente, sino que también te permite ahorrar dinero a largo plazo..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/img/card2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style=" color: black;" >Energía Solar Empresas</h5>
+                        <p class="card-text">El futuro de la energía es sostenible y rentable, y tu empresa puede ser parte de esa transformación. La energía solar empresarial es más que una tendencia; es una inversión inteligente que no solo reduce tus costos de energía, sino que también demuestra tu compromiso con la responsabilidad ambiental..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/img/card4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style=" color: black;" >Servicio Técnico</h5>
+                        <p class="card-text"> Como empresa comprometida con la energía solar, entendemos que tu sistema solar es fundamental para mantenerlo  funcionando de manera eficiente y sostenible. Es por eso que ofrecemos un servicio técnico de primera calidad, diseñado para garantizar el máximo rendimiento y la durabilidad de tus instalaciones solares en tu residencia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Imagend de proceso -->
+
+        <div class="container-fluid custom-container" id="container5">
+            <img src="/img/proceso.png" class="img-fluid separate-image" alt="...">
+        </div>
+
+        <!-- Segundo titulo intermedio -->
+
+        <div class="container-fluid custom-container " id="container3">
+            <H1>Contáctanos</H1>        
+         </div>
+
+         <!-- Formulario -->
+
+         <div class="container" id="container4">
+            <div class="row">
+                <div class="col-md-6 col-lg-5 g-4">
+                    <h2>Beneficios de implementar Paneles solares.</h2>
+                    
+                    <p><strong class="bold-number">1.</strong> Disminuye hasta un 100% el consumo de electricidad pagada.</p>
+
+                    <p><strong class="bold-number">2.</strong> Rentabiliza tus gastos operativos.</p>
+
+                <p><strong class="bold-number">3.</strong> Paga las cuotas del financiamiento con el ahorro de tu cuenta de luz.</p>
+
+                </div>
+                <div class="col-3">..</div>
+                <div class="col-4">
+                    <div class="col-md-6 col-lg-5 g-4">
+                        <label for="exampleFormControlInput1" class="form-label"><strong>Nombre</strong></label>
+                        <input type="email" class="form-control custom-input" id="exampleFormControlInput1" placeholder="Nombre">
+                    </div>
+                    <div class="col-md-6 col-lg-5 g-4">
+                        <label for="exampleFormControlInput1" class="form-label"><strong>Correo electrónico</strong></label>
+                        <input type="email" class="form-control custom-input" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="col-md-6 col-lg-5 g-4">
+                        <label for="exampleFormControlInput1" class="form-label"><strong>Contacto</strong></label>
+                        <input type="email" class="form-control custom-input" id="exampleFormControlInput1" placeholder="+569">
+                    </div>
+                    <div class="col-md-6 col-lg-5 g-4">
+                        <label for="exampleFormControlTextarea1" class="form-label"><strong>Mensaje</strong></label>
+                        <textarea class="form-control custom-input" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <input type="submit" value="Enviar" class="btn btn-warning custom-button">
+                    </div>
+                </div>
+            </div>
+          </div>
+          
+          <!-- Titulo 3 -->
+
+          <div class="container-fluid custom-container " id="container6">
+            <H1>Nuestros Proveedores</H1>        
+         </div>
+         <!-- protrocinadores -->
+
+      
+         <div class="container-fluid custom-container" id="container10">
+            <img src="/img/proveedores.png" class="img-fluid separate-image" alt="...">
+        </div>
+
+
+<!-- inicio Footer -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="texto-movimiento">
+                    <h5 class="texto-izquierdo">SERVICIOS</h5>
+                                
+                    <ul class="list-unstyled quick-links" >
+                            <li>
+                            <h4 class="texto-izquierdo" >
+                            Kit Solares
+                            <br >
+                            Energía solar hogar
+                            <br>
+                            Energía solar empresas 
+                            <br>
+                            Servicio técnico
+                        </h4>
+                    </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="texto-movimiento">
+                    <h5 class="texto-izquierdo">NOSOTROS</h5>
+                                
+                    <ul class="list-unstyled quick-links" >
+                            <li>
+                            <h4 class="texto-izquierdo" >
+                            Valparaiso, Viña Del Mar Chile
+                            <br >
+                            +569 90651012
+                            <br>
+                            www.solarysustentable.com 
+                            <br>
+                            solarysustentable.91@gmail.com
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <ul class="list-unstyled quick-links">
+                        <li>
+                                <div class="my-2" >
+                                    <img src="/img/logofooter.png" alt="" width="200px">
+                                </div>
+                                <br>
+                                <div class="my-2 mb-6">
+                                <div class="icono-container"style="margin: 10px;">
+                                    <a href="https://wa.me/+56951906473" class="href">
+                                        <img src="/img/wt.png" alt="" width="30px">
+                                    </a>
+                                </div>
+                                <div class="icono-container"style="margin: 10px;">
+                                    <a href="https://instagram.com/solarysustentable?utm_source=qr&igshid=MWM1ZW1oYXlucHB4cg==" class="href">
+                                        <img src="/img/int.png" alt="" width="30px">
+                                    </a>
+                                </div>
+                                <div class="icono-container"style="margin: 10px;">
+                                    <a href="https://www.facebook.com/profile.php?id=61552557989832&mibextid=2JQ9oc" class="href">
+                                        <img src="/img/face.png" alt="" width="17px">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- fin Footer -->
+
+
+
+
+
+        <script src="/js/funcionmc.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
+</body>
+
+</html>
